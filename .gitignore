@@ -1,0 +1,13 @@
+@'
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.duckdb
+*.db
+.pytest_cache/
+.ipynb_checkpoints/
+'@ | Set-Content -Encoding utf8 .gitignore
