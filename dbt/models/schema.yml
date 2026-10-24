@@ -1,0 +1,11 @@
+version: 2
+sources:
+  - name: roadsafety
+    schema: main
+    tables:
+      - name: collisions
+models:
+  - name: stg_collisions
+    columns:
+      - name: accident_index
+        tests: [not_null, unique]

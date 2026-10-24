@@ -1,0 +1,15 @@
+name: roadsafety
+version: "1.0.0"
+config-version: 2
+profile: roadsafety
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+models:
+  roadsafety:
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: table
+    marts:
+      +materialized: table

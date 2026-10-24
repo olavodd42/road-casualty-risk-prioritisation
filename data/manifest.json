@@ -1,0 +1,11 @@
+{
+  "description": "Source manifest for the road casualty analysis.",
+  "sources": [
+    {
+      "name": "DfT road safety statistics",
+      "url": "https://www.gov.uk/government/collections/road-accidents-and-safety-statistics",
+      "sha256": null,
+      "local_path": "data/raw"
+    }
+  ]
+}

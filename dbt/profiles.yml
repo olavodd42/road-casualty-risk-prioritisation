@@ -1,0 +1,7 @@
+roadsafety:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../data/warehouse/roadsafety.duckdb
+      threads: 1
